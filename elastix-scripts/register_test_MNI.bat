@@ -1,0 +1,27 @@
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1003.nii.gz -fMask .\..\data\testing-set\testing-mask\1003_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\003\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1004.nii.gz -fMask .\..\data\testing-set\testing-mask\1004_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\004\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1005.nii.gz -fMask .\..\data\testing-set\testing-mask\1005_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\005\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1018.nii.gz -fMask .\..\data\testing-set\testing-mask\1018_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\018\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1019.nii.gz -fMask .\..\data\testing-set\testing-mask\1019_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\019\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1023.nii.gz -fMask .\..\data\testing-set\testing-mask\1023_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\023\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1024.nii.gz -fMask .\..\data\testing-set\testing-mask\1024_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\024\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1025.nii.gz -fMask .\..\data\testing-set\testing-mask\1025_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\025\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1038.nii.gz -fMask .\..\data\testing-set\testing-mask\1038_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\038\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1039.nii.gz -fMask .\..\data\testing-set\testing-mask\1039_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\039\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1101.nii.gz -fMask .\..\data\testing-set\testing-mask\1101_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\101\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1104.nii.gz -fMask .\..\data\testing-set\testing-mask\1104_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\104\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1107.nii.gz -fMask .\..\data\testing-set\testing-mask\1107_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\107\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1110.nii.gz -fMask .\..\data\testing-set\testing-mask\1110_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\110\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1113.nii.gz -fMask .\..\data\testing-set\testing-mask\1113_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\113\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1116.nii.gz -fMask .\..\data\testing-set\testing-mask\1116_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\116\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1119.nii.gz -fMask .\..\data\testing-set\testing-mask\1119_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\119\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1122.nii.gz -fMask .\..\data\testing-set\testing-mask\1122_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\122\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1125.nii.gz -fMask .\..\data\testing-set\testing-mask\1125_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\125\
+elastix -m .\..\results\atlas\MNItemplate.nii.gz -f .\..\data\testing-set\testing-images\1128.nii.gz -fMask .\..\data\testing-set\testing-mask\1128_1C.nii.gz  -p .\parameters\par01a.txt  -p .\parameters\par01b.txt -out .\..\results\testing_results\registered_images_MNI\128\
+
+
+
+
+
+
+
