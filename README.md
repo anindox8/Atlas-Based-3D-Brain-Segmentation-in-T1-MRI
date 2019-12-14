@@ -18,7 +18,7 @@
 ## Affine and B-Spline Registration (via elastix-5)  
   
   
-![elastix-5 Registration](reports/images/reg00.png)*Figure 1.  [left-to-right]: T1 MRI volume of the reference image (patient1000), the moving image (patient1006) and the registered image (patient1006) using 3D affine and B-spline registration with gradient descent optimizer and Mattes mutual information metric (optimized from -0.355940 to -0.739491). Blue cross-hairs mark the same voxel across all 3 volumes at slice 135, verifying successful registration.*  
+![elastix-5 Registration](reports/images/reg00.png)*Figure 1.  [left-to-right]: T1 MRI volume of the reference image (patient 1000), the moving image (patient 1006) and the registered image (patient 1006) using 3D affine and B-spline registration with gradient descent optimizer and Mattes mutual information metric (optimized from -0.355940 to -0.739491). Blue cross-hairs mark the same voxel across all 3 volumes at slice 135, verifying successful registration.*  
   
     
     
