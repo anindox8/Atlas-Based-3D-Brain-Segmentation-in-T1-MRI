@@ -1,8 +1,8 @@
-# Deep Segmentation Features for Weakly Supervised Disease Classification via 3D Dual-Stage CNN 
+# Atlas-Based Segmentation Algorithms in T1 MRI
 
-**Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
+**Problem Statement**: Fully supervised, multi-class 3D brain segmentation in T1 MRI.
 
-**Data**: *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Normal Lungs Cases. 
+**Data**: *Label 1*: Cerebrospinal Fluid (CSF); *Label 2:* White Matter (WM); *Label 3:* Gray Matter (GM). 
 
 
 **Directories**  
@@ -19,29 +19,28 @@
   ● Calculate AUC: `notebooks/binary_AUC.ipynb`
   
 
-
-**Publications:**  
-  ● A. Saha, F.I. Tushar, K. Faryna, R. Hou, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D Classification of Chest CT using  
-    Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided Diagnosis, Houston, TX, USA.
-    (*manuscript accepted for oral presentation*)
-                 
-
-
 ## Network Architecture  
   
   
-![Network Architecture](reports/images/network_architecture.png)*Figure 1.  Integrated model architecture for reusing segmentation feature maps in 3D binary classification. The segmentation sub-model is a DenseVNet, taking a variable input volume with a single channel and the classification sub-model is a 3D ResNet, taking an input volume patch of size [112,112,112] with 2 channels. Final output is a tensor with the predicted class probabilities.*  
+![Network Architecture](reports/images/reg00.png)*Figure 1.  [left-to-right]: T1 MRI volume of the reference image (patient1000), the movingimage (patient1006) and the registered image (patient1006) using 3D affine and B-splineregistration with gradient descent optimizer and Mattes mutual information metric (optimizedfrom -0.355940 to -0.739491). Blue cross-hairs mark the same voxel across all 3 volumes at slice135, verifying successful registration.*  
   
     
     
 ## Multi-Resolution Deep Segmentation Features  
   
   
-![Multi-Resolution Deep Segmentation Features](reports/images/segmentation_features.png)*Figure 2.  From left-to-right: input CT volume (axial view), 3 out of 61 segmentation feature maps extracted from the pretrained DenseVNet model, at different resolutions, and their corresponding static aggregated feature maps (StFA) in the case of diseased lungs with atelectasis (top row), mass (middle row) and emphysema (bottom row).*  
+![Multi-Resolution Deep Segmentation Features](reports/images/reg02.png)*Figure 2.  [left-to-right]: Mean segmentation ground truth for all 15 registered training labels,the CSF probabilistic atlas, the WM probabilistic atlas and the GM probabilistic atlas. Bluecross-hairs mark the same voxel across all 4 volumes at slice 135 with 0.13335, 0.06665, 0.80000probabilities of belong to the CSF, WM and GM classes, respectively.*  
   
     
     
 ## Experimental Results  
   
   
-![Binary AUC](reports/images/auc.png)*Figure 3.  ROC curves for each disease class against all normal cases and all disease classes against all normal cases for the independent (left),  StFA (center) and DyFA (right) models for binary lung disease classification.*
+![Binary AUC](reports/images/reg03.png)*Figure 3.  [left-to-right]: Independent tissue models (where the area under each curve is equal to1) and functional tissue models (where sum of the normalized frequency values/probabilities forall 3 classes at any given intensity value is equal to 1). Anomalous values appear in the functionaltissue models after the intensity value 2000, owing to division by very small probabilities values.*
+
+
+
+## Experimental Results  
+  
+  
+![Binary AUC](reports/images/reg03.png)*Figure 3.  [left-to-right]: Independent tissue models (where the area under each curve is equal to1) and functional tissue models (where sum of the normalized frequency values/probabilities forall 3 classes at any given intensity value is equal to 1). Anomalous values appear in the functionaltissue models after the intensity value 2000, owing to division by very small probabilities values.*
