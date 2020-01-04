@@ -2,7 +2,7 @@
 
 **Problem Statement**: Fully supervised, multi-class 3D brain segmentation in T1 MRI.
 
-**Data**: *Label 1*: Cerebrospinal Fluid (CSF); *Label 2:* White Matter (WM); *Label 3:* Gray Matter (GM). 
+**Data**: *Label 1*: Cerebrospinal Fluid (CSF); *Label 2:* White Matter (WM); *Label 3:* Gray Matter (GM) [15/20 : Train/Test Ratio]
 
 
 **Directories**  
