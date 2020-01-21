@@ -1,4 +1,4 @@
-# Atlas-Based 3D Brain Segmentation in T1 MRI
+# Atlas-Based 3D Multi-Class Brain Segmentation in T1 MRI
 
 **Problem Statement**: Fully supervised, multi-class 3D brain segmentation in T1 MRI.
 
