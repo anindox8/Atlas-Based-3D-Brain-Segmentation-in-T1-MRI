@@ -66,8 +66,3 @@
 ![EM with MNI Atlas](reports/images/seg05.png)*Figure 7. a) T1 MRI testing volume (patient 1038). b) Segmentation ground truth of testing volume (patient 1038). c) Segmentation using label propagation with MNI probabilistic atlas. d) Segmentation using label propagation with MNI atlas and tissue models. e) EM segmentation initialized by MNI atlas. f) Joint EM-MNI atlas segmentation. Blue cross-hairs mark the same voxel across all 4 volumes at slice 140, highlighting the site of putamen structures in GM.*
 
 
-
-## Experimental Results  
-  
-  
-![Results](reports/images/res01.png)*Figure 8.  Box plot of all 9 segmentation algorithms investigated. {A1: Label Propagation; A2: Label Propagation with Tissue Models; A3: Label Propagation (MNI); A4: Label Propagation (MNI) with Tissue Models; B1: EM with K-Means Initialization; B2: EM with Atlas Initialization; B3: Joint EM-Atlas Computation; B4: EM with MNI Atlas Initialization; B5: Joint EM-MNI Atlas Computation.}*
